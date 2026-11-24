@@ -1,0 +1,45 @@
+# Build output
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.o
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Python environments and bytecode
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local validation tool
+/test/OPD/test.py
+
+# Local editor settings
+/.vscode/
+
+# Experiment output; supplied inputs under cache/ remain versioned
+*.log
+/test/ERE/result/
+/test/OPS/.tmp/
+/test/OPS/sequence_*/
+/test/**/*.txt
+/test/**/*.json
+/test/**/*.csv
+/test/**/*.pdf
+/test/**/*.png
+/test/**/*.tex
+
+# Local Docker image transfer files
+/approx-local.tar
+/approx-local.tar.*
+/approx-local.image-id.txt
